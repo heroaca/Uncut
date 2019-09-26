@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Uncut Archive</title>
+
+	<meta name="description" content="Complete, unabridged &amp; uncensored.">
+    <meta name="author" content="HeroAca">
+    <meta property="og:title" content="Project Uncut" />
+    <meta property="og:site_name" content="ヒロアカ史料館"/>
+    <meta property="og:url" content="https://heroaca.github.io/uncut"/>
+    <meta property="og:description" content="Complete, unabridged &amp; uncensored."/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/cover.jpg" />
+    <meta property="og:image:width" content="222" />
+    <meta property="og:image:height" content="222" />
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/css/uikit.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Noto+Serif+JP|Kosugi+Maru&display=swap" rel="stylesheet">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.2.0/js/uikit-icons.min.js"></script>
+
+	<style type="text/css">
+		body {
+			background-color: #F5F5F5;
+			font-family: 'Noto Serif JP', serif;
+		}
+
+		ruby, .uk-tab {
+			font-family: 'Kosugi Maru', sans-serif;
+		}
+
+		.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+			font-family: 'Noto Serif JP', serif;
+			/*font-weight: 600;*/
+		}
+
+		.uk-navbar-item, .uk-navbar-nav>li>a, .uk-navbar-toggle {
+			min-height: 40px;
+		}
+
+		.uk-card-default.uk-card-hover {
+			transition: box-shadow 0.3s ease;
+		}
+
+		.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary) {
+			transition: background-color 0.5s ease;
+		}
+
+		.uk-logo, h1, h2, h3, h4, h5 {
+			font-family: 'Fredericka the Great', cursive;
+			/*font-weight: 400;*/
+		}
+
+		ruby > rt {
+			font-size: 0.3em;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="uk-container" uk-height-viewport>
+		<div class="uk-padding-small">
+			<article class="uk-article uk-text-right">
+				<p class="uk-article-meta">Project Uncut 2019</p>
+			</article>
+		</div>
+		<div class="uk-card uk-card-default uk-card-hover uk-card-small uk-card-body uk-border-rounded" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; offset: 15;">
+			<nav class="" uk-navbar style="position: relative; z-index: 980;">
+				<div class="nav-overlay uk-navbar-left">
+					<a class="uk-navbar-item uk-logo uk-visible@m" href="#">Uncut</a>
+					<ul class="uk-navbar-nav">
+						<li class="uk-active"><a href="#"><span class="uk-icon uk-margin-small-right uk-hidden@m" uk-icon="icon: home"></span><span class="uk-visible@m">Home</span></a></li>
+						<li><a href="#about" uk-toggle><span class="uk-icon uk-margin-small-right uk-hidden@m" uk-icon="icon: star"></span><span class="uk-visible@m">About</span></a></li>
+					</ul>
+				</div>
+				<div class="nav-overlay uk-navbar-right">
+					<a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+				</div>
+				<div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+					<div class="uk-navbar-item uk-width-expand">
+						<form class="uk-search uk-search-navbar uk-width-1-1">
+							<input class="uk-search-input" type="search" placeholder="Search..." autofocus>
+						</form>
+					</div>
+					<a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+				</div>
+			</nav>
+		</div>
+
+		<div class="uk-margin-large-top" uk-grid>
+			<div class="uk-width-1-5@m uk-margin">
+				<div uk-sticky="offset: 135; media: @m">
+				<ul class="uk-nav-default uk-nav-parent-icon" uk-nav="multiple: true" uk-scrollspy-nav="closest: li; scroll: true; offset: 135">
+					<li class="uk-parent uk-open">
+						<a href="#general">General</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#paranormal">Paranormal</a></li>
+							<li><a href="#internship">Internship</a></li>
+							<li><a href="#work-study">Work Study</a></li>
+							<li><a href="#full-cowl">Full Cowl</a></li>
+							<li><a href="#names">Character Names</a></li>
+						</ul>
+					</li>
+					<li class="uk-parent uk-open">
+						<a href="#main-series">Main Series</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#mha-1">Chapter 1</a></li>
+							<li><a href="#mha-2">Chapter 2</a></li>
+							<li><a href="#mha-55">Chapter 55</a></li>
+							<li><a href="#mha-203">Chapter 203</a></li>
+						</ul>
+					</li>
+					<li class="uk-parent">
+						<a href="#vigilantes">Vigilantes</a>
+						<ul class="uk-nav-sub">
+							<li><a href="#vig-1">Chapter 1</a></li>
+							<li><a href="#vig-2">Chapter 2</a></li>
+							<li><a href="#vig-55">Chapter 55</a></li>
+							<li><a href="#vig-60">Chapter 60</a></li>
+						</ul>
+					</li>
+					<li><a href="#others">Others</a></li>
+				</ul>
+			</div>
+			</div>
+
+			<div class="uk-width-expand">
+				<div id="general" class="uk-card uk-card-default uk-border-rounded uk-margin-bottom uk-card-body">
+					<article class="uk-article">
+						<h1 class="uk-article-title"><a class="uk-link-reset" href="#general" uk-scroll="offset: 135">General</a></h1>
+						<p class="uk-article-meta">Changes that span across the series and spin-offs.</p>
+					</article>
+
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="paranormal" class="">Paranormal <ruby>超<rt> ちょう </rt></ruby><ruby>常<rt> じょう </rt></ruby></h2>
+
+						<p class="uk-dropcap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+
+					<blockquote cite="#">
+						<p class="uk-margin-small-bottom">Without the advent of the <s>extraordinary</s> <strong>Paranormal</strong>, humanity would be enjoying interstellar travel right now.</p>
+						<footer>Importan T. Guy from <cite><a href="#">Chapter 59</a></cite></footer>
+					</blockquote>
+
+					<div class="uk-margin" uk-grid>
+						<div class="uk-width-auto@m">
+							<div class="uk-align-right@m">
+								<ul class="uk-switcher switcher">
+									<li><img data-src="assets/panels/paranormal-1.jpg" width="287" height="381" alt="" uk-img></li>
+									<li><img data-src="assets/panels/paranormal-2.jpg" width="287" height="381" alt="" uk-img></li>
+									<li><img data-src="assets/panels/paranormal-3.jpg" width="287" height="381" alt="" uk-img></li>
+								</ul>
+							</div>
+						</div>
+						<div class="uk-width-expand@m">
+							<div uk-grid>
+								<div class="uk-width-auto@m uk-flex-last@m">
+									<ul class="uk-tab-right" uk-tab=".switcher">
+										<li><a href="#">日本語</a></li>
+										<li><a href="#">ENG</a></li>
+										<li><a href="#">Uncut</a></li>
+									</ul>
+								</div>
+								<div class="uk-width-expand@m">
+									<ul class="uk-switcher switcher">
+										<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+										<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+										<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Section -->
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="internship" class="">Internship <ruby>インターン</ruby></h2>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+
+					<blockquote cite="#">
+						<p class="uk-margin-small-bottom">Put simply, it's hero work outside of school. A more immersive version of the <s>internships</s> <strong>work studies</strong> you already did with Pro Heroes.</p>
+						<footer>Shota Aizawa from <cite><a href="https://bokunoheroacademia.fandom.com/wiki/Hero_Work-Studies" target="_blank">Chapter 122</a></cite></footer>
+					</blockquote>
+
+					<!-- Section -->
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="work-study" class="">Work Study <ruby>職<rt>しょく</rt></ruby><ruby>場<rt>ば</rt></ruby><ruby>体<rt>たい</rt></ruby><ruby>験<rt>けん</rt></ruby></h2>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id <a href="https://bokunoheroacademia.fandom.com/wiki/Hero_Agency_Internships" target="_blank">est laborum.</a></p>
+					</article>
+
+					<!-- Section -->
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="full-cowl" class="">One For All: Full Cowl <ruby>ワン・フォー・オール フルカウル</ruby></h2>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+
+					<!-- Section -->
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="names" class="">Character Names</h2>
+
+						<h3>Iida Family <ruby>飯<rt>いい</rt></ruby><ruby>田<rt>だ</rt></ruby></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<div class="uk-margin" uk-grid>
+							<div class="uk-width-auto@m">
+								<div class="uk-align-right@m">
+									<ul class="uk-switcher switcher">
+										<li><img data-src="assets/panels/iida-1.jpg" width="543" height="490" alt="" uk-img></li>
+										<li><img data-src="assets/panels/iida-2.jpg" width="543" height="490" alt="" uk-img></li>
+										<li><img data-src="assets/panels/iida-3.jpg" width="543" height="490" alt="" uk-img></li>
+									</ul>
+								</div>
+							</div>
+							<div class="uk-width-expand@m">
+								<div uk-grid>
+									<div class="uk-width-auto@m uk-flex-last@m">
+										<ul class="uk-tab-right" uk-tab=".switcher">
+											<li><a href="#">日本語</a></li>
+											<li><a href="#">ENG</a></li>
+											<li><a href="#">Uncut</a></li>
+										</ul>
+									</div>
+									<div class="uk-width-expand@m">
+										<ul class="uk-switcher switcher">
+											<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+											<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+											<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, sed do eiusmod.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<h3>Shinrin Kamui <ruby>シンリンカムイ</ruby></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+						<h3>Tora <ruby>虎<rt>とら</rt></ruby></h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+				</div>
+
+
+				<div id="main-series" class="uk-card uk-card-default uk-border-rounded uk-margin-bottom uk-card-body">
+					<article class="uk-article">
+						<h1 class="uk-article-title"><a class="uk-link-reset" href="#general" uk-scroll="offset: 135">Main Series</a></h1>
+						<p class="uk-article-meta">Changes that only affect the individual chapters.</p>
+					</article>
+
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="mha-1" class="">Chapter 1</h2>
+
+						<p class="uk-dropcap uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+
+					<blockquote cite="#">
+						<p class="uk-margin-small-bottom">The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element.</p>
+						<footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
+					</blockquote>
+				</div>
+				<div id="vigilantes" class="uk-card uk-card-default uk-border-rounded uk-margin-bottom uk-card-body">
+					<article class="uk-article">
+						<h1 class="uk-article-title"><a class="uk-link-reset" href="#general" uk-scroll="offset: 135">Vigilantes</a></h1>
+						<p class="uk-article-meta">Changes that only affect the individual chapters.</p>
+					</article>
+
+					<hr class="uk-divider-icon bookmark">
+
+					<article class="uk-article">
+						<h2 id="vig-1" class="">Chapter 1</h2>
+
+						<p class="uk-text-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+
+						<p class="uk-dropcap">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</article>
+
+					<blockquote cite="#">
+						<p class="uk-margin-small-bottom">The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element.</p>
+						<footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
+					</blockquote>
+				</div>
+				<!-- <div id="team-up-mission" class="uk-card uk-card-default uk-border-rounded uk-height-large uk-margin-bottom uk-card-body"></div> -->
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div id="about" class="uk-modal-full" uk-modal>
+		<div class="uk-modal-dialog">
+			<button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+			<div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle uk-overflow-hidden" uk-grid>
+				<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push; autoplay: true" uk-height-viewport>
+							<ul class="uk-slideshow-items" uk-height-viewport>
+								<li>
+									<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-top-right">
+										<img src="assets/images/01.jpg" alt="" uk-cover>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-bottom-right">
+										<img src="assets/images/02.jpg" alt="" uk-cover>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+										<img src="assets/images/03.jpg" alt="" uk-cover>
+									</div>
+								</li>
+								<li>
+									<div class="uk-position-cover uk-animation-kenburns uk-animation-reverse">
+										<img src="assets/images/04.jpg" alt="" uk-cover>
+									</div>
+								</li>
+							</ul>
+
+							<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+							<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+						</div>
+				<div class="uk-padding-large">
+					<h1>About</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="uk-position-fixed uk-position-bottom-right uk-padding uk-margin-right" style="z-index: 1000">
+		<a href="#" uk-totop uk-scroll></a>
+	</div>
+</body>
+</html>
