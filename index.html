@@ -65,9 +65,10 @@
 
 		.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary) {
 			transition: background-color 0.5s ease;
+			transition: box-shadow 0.3s ease;
 		}
 
-		.uk-logo, h1, h2, h3, h4, h5 {
+		.uk-logo, h1, h2, h3, h4, h5, th {
 			font-family: 'Fredericka the Great', cursive;
 			/*font-weight: 400;*/
 		}
@@ -300,6 +301,34 @@
 						<p class="uk-margin-small-bottom">The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a footer or cite element.</p>
 						<footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
 					</blockquote>
+
+					<!-- Table -->
+					<table class="uk-table uk-table-divider uk-table-responsive uk-table-small uk-table-middle uk-table-justify">
+						<thead>
+							<tr>
+								<th>Term</th>
+								<th>Descriptions</th>
+								<th>Chapter</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Table Data</td>
+								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+								<td>Table Data</td>
+							</tr>
+							<tr>
+								<td>Table Data</td>
+								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td>
+								<td>Table Data</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 				<div id="vigilantes" class="uk-card uk-card-default uk-border-rounded uk-margin-bottom uk-card-body">
 					<article class="uk-article">
@@ -322,7 +351,98 @@
 						<footer>Someone famous in <cite><a href="#">Source Title</a></cite></footer>
 					</blockquote>
 				</div>
-				<!-- <div id="team-up-mission" class="uk-card uk-card-default uk-border-rounded uk-height-large uk-margin-bottom uk-card-body"></div> -->
+
+				<div id="others" class="uk-card uk-card-default uk-border-rounded uk-margin-bottom uk-card-body">
+					<article class="uk-article">
+						<h1 class="uk-article-title"><a class="uk-link-reset" href="#others" uk-scroll="offset: 135">Others</a></h1>
+						<p class="uk-article-meta">Related links and references.</p>
+					</article>
+
+					<hr class="uk-divider-icon bookmark">
+
+					<div uk-grid>
+						
+						<div class="uk-width-1-2@m">
+							<a class="uk-display-block uk-card uk-card-hover uk-link-reset uk-border-rounded uk-card-small" target="_blank" href="https://www.viz.com/my-hero-academia">
+								<div class="uk-card-body">
+									<div class="uk-grid-small uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<span uk-icon="icon: world; ratio: 2"></span>
+										</div>
+										<div class="uk-width-expand">
+											<h3 class="uk-card-title uk-margin-remove-bottom">My Hero Academia</h3>
+											<p class="uk-text-meta uk-margin-remove-top">Official English Website</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="uk-width-1-2@m">
+							<a class="uk-display-block uk-card uk-card-hover uk-link-reset uk-border-rounded uk-card-small" target="_blank" href="https://www.shonenjump.com/j/rensai/myhero.html">
+								<div class="uk-card-body">
+									<div class="uk-grid-small uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<span uk-icon="icon: bookmark; ratio: 2"></span>
+										</div>
+										<div class="uk-width-expand">
+											<h3 class="uk-card-title uk-margin-remove-bottom">僕のヒーローアカデミア</h3>
+											<p class="uk-text-meta uk-margin-remove-top">Official Japanese Website</p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="uk-width-1-3@m">
+							<a class="uk-display-block uk-card uk-card-hover uk-link-reset uk-border-rounded uk-card-small" target="_blank" href="https://old.reddit.com/r/BokuNoHeroAcademia/">
+								<div class="uk-card-body">
+									<div class="uk-grid-small uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<span uk-icon="icon: reddit; ratio: 2"></span>
+										</div>
+										<div class="uk-width-expand">
+											<h3 class="uk-card-title uk-margin-remove-bottom">Subreddit</h3>
+											<p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">r/BokuNoHeroAcademia</time></p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="uk-width-1-3@m">
+							<a class="uk-display-block uk-card uk-card-hover uk-link-reset uk-border-rounded uk-card-small" target="_blank" href="https://bokunoheroacademia.fandom.com/wiki/My_Hero_Academia_Wiki">
+								<div class="uk-card-body">
+									<div class="uk-grid-small uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<span uk-icon="icon: heart; ratio: 2"></span>
+										</div>
+										<div class="uk-width-expand">
+											<h3 class="uk-card-title uk-margin-remove-bottom"><span class="uk-visible@l">Fandom </span>Wikia</h3>
+											<p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">My Hero Academia Wiki</time></p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+
+						<div class="uk-width-1-3@m">
+							<a class="uk-display-block uk-card uk-card-hover uk-link-reset uk-card-small" target="_blank" href="https://discord.gg/W2EDwPW">
+								<div class="uk-card-body">
+									<div class="uk-grid-small uk-flex-middle" uk-grid>
+										<div class="uk-width-auto">
+											<span uk-icon="icon: comments; ratio: 2"></span>
+										</div>
+										<div class="uk-width-expand">
+											<h3 class="uk-card-title uk-margin-remove-bottom"><span class="uk-visible@l">MHA </span>Discord</h3>
+											<p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">r/BokuNoHeroAcademia</time></p>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
